@@ -1,0 +1,137 @@
+.section-container {
+  display: flex;
+  align-items: flex-start;   /* Align top edges */
+  justify-content: space-between;
+  padding: 60px 8%;
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+  gap: 40px; /* space between columns */
+   
+}
+
+.why-choose-us {
+  flex: 0 0 35%;
+  padding-right: 2%;
+}
+
+.why-choose-us h2 {
+  font-size: 2rem;
+  color: #7B967A; /* deep brown */
+  margin-bottom: 15px;
+}
+
+.why-choose-us p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.why-choose-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-choose-us li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 22px;
+}
+
+.why-choose-us li::before {
+  content: "✔";
+  color: #7B967A;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Right side (Lead Form container) */
+.lead-form {
+  flex: 0 0 60%;
+  background: white;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-radius: 15px;
+}
+
+/* Make it responsive */
+@media (max-width: 992px) {
+  .section-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 6%;
+    gap: 30px;
+  }
+
+  .why-choose-us {
+    flex: 0 0 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .why-choose-us h2 {
+    font-size: 1.8rem;
+  }
+
+  .lead-form {
+    flex: 0 0 100%;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-container {
+    padding: 30px 5%;
+    gap: 25px;
+  }
+
+  .why-choose-us h2 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+  }
+
+  .why-choose-us p {
+    font-size: 0.95rem;
+  }
+
+  .why-choose-us li {
+    font-size: 0.9rem;
+  }
+
+  .lead-form {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-container {
+    padding: 20px 4%;
+    gap: 20px;
+  }
+
+  .why-choose-us h2 {
+    font-size: 1.4rem;
+  }
+
+  .why-choose-us p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .why-choose-us ul {
+    text-align: left;
+  }
+
+  .why-choose-us li {
+    font-size: 0.8rem;
+    padding-left: 18px;
+  }
+
+  .lead-form {
+    padding: 20px;
+    border-radius: 12px;
+  }
+}
+
