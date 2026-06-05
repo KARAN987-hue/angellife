@@ -14,7 +14,8 @@ app.use(cors({
   origin: [
     "http://localhost:3000",
     "https://angellife-frontend.onrender.com",
-    "https://intuitive-expression-production-cc12.up.railway.app"
+    "https://intuitive-expression-production-cc12.up.railway.app",
+    "https://angelife.bytemagic.in"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
