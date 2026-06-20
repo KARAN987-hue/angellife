@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://angellife-backend.onrender.com/api',
+  baseURL: 'angellife-production.up.railway.app/api',
   headers: {
     'Content-Type': 'application/json',
   },
