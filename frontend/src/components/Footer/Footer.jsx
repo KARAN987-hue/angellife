@@ -17,7 +17,7 @@ const Footer = () => {
           <div className={styles.column}>
             <h3 className={styles.title}>Contact Us</h3>
             <p>📍 H.O - 1703 A Wing, Himalyan Heights, Wadala, Mumbai</p>
-            <p>📞 +91 9910478281 </p>
+            <p>📞 +91 9170002416</p>
             <p>
               📧{' '}
               <a href="mailto:care@angellife.in" className={styles.link}>
