@@ -5,7 +5,7 @@ import styles from "./Contact.module.css";
 
 const Contact = () => {
   // Main contact (only one phone and one email)
-  const mainPhone = "+91 9910478281 ";
+  const mainPhone = "++91 9170002416 ";
   const mainEmail = "care@angellife.in";
 
   const offices = [
