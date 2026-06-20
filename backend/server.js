@@ -13,6 +13,8 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:3000",
+    "https://angellifeinstitute.com",
+    "https://feisty-clarity-production-1709.up.railway.app",
     "https://angellife-frontend.onrender.com",
     "https://intuitive-expression-production-cc12.up.railway.app",
     "https://angelife.bytemagic.in"
